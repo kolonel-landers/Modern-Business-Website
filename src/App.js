@@ -43,7 +43,7 @@ const TRANSLATIONS = {
     },
     extras: {
       title: "Services Complémentaires",
-      items: ["Maintenance mensuelle", "Création de logo", "Rédaction de contenu", "Gestion réseaux sociaux", "Publicité Facebook / Google", "Refonte de site", "Hébergement annuel"],
+      items: ["Maintenance mensuelle", "Création de logo", "Charte graphique", "Rédaction de contenu", "Gestion réseaux sociaux", "Publicité Facebook / Google", "Refonte de site", "Hébergement annuel"],
     },
     testimonials: {
       title: "Ce que disent nos clients",
@@ -138,7 +138,7 @@ const TRANSLATIONS = {
     },
     extras: {
       title: "Additional Services",
-      items: ["Monthly maintenance", "Logo creation", "Content writing", "Social media management", "Facebook / Google Ads", "Website redesign", "Annual hosting"],
+      items: ["Monthly maintenance", "Logo creation", "Brand identity", "Content writing", "Social media management", "Facebook / Google Ads", "Website redesign", "Annual hosting"],
     },
     testimonials: {
       title: "What our clients say",
@@ -213,7 +213,13 @@ const useIsMobile = () => {
 // ─── Composants de base ────────────────────────────────────────────────────────
 const Logo = ({ size = 60 }) => (
   <div onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} style={{ display: "flex", alignItems: "center", cursor: "pointer" }}>
-    <img src="/logo.png" alt="logo" style={{ height: size, width: "auto", objectFit: "contain" }} />
+    <img
+  src="/logo.webp"
+  alt="Mr. LS Agence Web"
+  loading="lazy"
+  decoding="async"
+  style={{ height: size, width: "auto", objectFit: "contain" }}
+/>
   </div>
 );
 
