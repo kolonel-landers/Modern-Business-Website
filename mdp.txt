@@ -1,0 +1,5 @@
+emailjs 
+service_id: service_iye761d
+tmemplate_id: template_sgzs85x
+public key: e7jMTvRlxYd1YrOlC
+private key: 3SUTqgmMy86xwRKFk7lMC

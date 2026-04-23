@@ -1,0 +1,65 @@
+**Sur Netlify**
+
+C'est la méthode la plus simple :
+
+1. Allez dans votre site sur Netlify
+2. Cliquez **"Domain management"**
+3. Cliquez **"Add a domain"**
+4. Tapez votre domaine ex: `mrls-agency.com`
+5. Netlify vous donne des **DNS à configurer** chez votre registrar
+6. Copiez ces DNS et collez-les chez votre registrar
+7. Attendez 24-48h — votre domaine est actif ✅
+
+**HTTPS gratuit automatique** — Netlify installe le certificat SSL tout seul.
+
+---
+
+**Sur InfinityFree**
+
+1. Allez dans votre tableau de bord
+2. Cliquez sur votre hébergement
+3. Allez dans **"Domains"**
+4. Cliquez **"Add domain"**
+5. Entrez votre domaine
+6. Configurez les DNS chez votre registrar avec les valeurs InfinityFree
+7. Attendez 24-48h ✅
+
+---
+
+**Où acheter un nom de domaine ?**
+
+| Registrar | Prix annuel | Recommandé pour |
+|---|---|---|
+| **Namecheap** | 8 – 15 $ | International |
+| **GoDaddy** | 10 – 20 $ | International |
+| **OVH** | 8 – 12 € | France/Afrique |
+| **CamDomain** | 5 000 – 15 000 FCFA | Cameroun (.cm) |
+
+---
+
+**Quelle extension choisir ?**
+
+| Extension | Prix | Recommandé si |
+|---|---|---|
+| `.com` | ~10$/an | Cible internationale |
+| `.net` | ~10$/an | Agence tech |
+| `.agency` | ~20$/an | Agence web pro |
+| `.cm` | ~10 000 FCFA/an | Cible camerounaise |
+| `.africa` | ~15$/an | Cible africaine |
+
+---
+
+**Mon conseil pour Mr. LS :**
+
+```
+mrls.agency        → très professionnel
+mrls-agency.com    → international
+mrls.cm            → marché camerounais
+```
+
+**La meilleure combinaison :**
+- Achetez `mrls.agency` ou `mrls-agency.com` sur **Namecheap**
+- Hébergez sur **Netlify**
+- Connectez les deux
+
+C'est la solution la plus professionnelle, la plus rapide et la plus crédible pour vos clients locaux et internationaux. 🎯
